@@ -28,7 +28,7 @@ class UnoMock implements Uno {
       headers: headers,
       request: Request(
         uri: Uri.base,
-        method: '',
+        method: 'GET',
         headers: {},
         timeout: Duration.zero,
       ),
